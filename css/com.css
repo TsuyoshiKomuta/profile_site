@@ -106,7 +106,7 @@ img {
 }
 
 #office {
-    background-image: url(../img/office_gaikan.jpg);
+    background-image: url(../image/office_gaikan.jpg);
     min-height: 100vh;
 }
 
@@ -127,7 +127,7 @@ h3 {
 
 /* 固定背景画像の設定 */
 .parallax {
-    background-image: url("../img/office-image.jpg");
+    background-image: url("../image/office-image.jpg");
     height: 250px;
     background-attachment: fixed;
     background-position: center;
