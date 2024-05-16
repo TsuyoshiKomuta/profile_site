@@ -153,6 +153,17 @@
     </div>
     <!-- con_bg end-->
     <div id="pt" class="pt"><span class="pt_btn">Page<br>Top</span></div>
+    <!-- コメント欄 -->
+    <div class="comment-section wrapper">
+        <h3>コメントを入力</h3>
+        <form id="commentForm">
+            <input type="text" name="name" id="nameInput" placeholder="名前を入力" required>
+            <textarea name="comment" id="commentInput" placeholder="コメントを入力" required></textarea>
+            <button type="submit">送信</button>
+        </form>
+        <div id="commentsContainer"></div>
+    </div>
+    
     <!-- pagetop end-->
     <footer class="ft_bg">
         <div class="ft w_base">
@@ -197,5 +208,8 @@
         <link rel="stylesheet" href="plugin/lightbox/css/lightbox.css" media="screen">
         <script src="plugin/lightbox/js/lightbox.js"></script>
         <!--lightbox end-->
+        <!-- jQueryの読み込み -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./comments.js"></script>
 </body>
 </html>
